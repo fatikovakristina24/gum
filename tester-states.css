@@ -1,0 +1,32 @@
+#weight-200:checked ~ .sample-shell textarea{font-weight:200}
+#weight-200:checked ~ .weight-options label[for="weight-200"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-200:checked ~ .weight-options label[for="weight-200"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-200:focus-visible ~ .weight-options label[for="weight-200"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-300:checked ~ .sample-shell textarea{font-weight:300}
+#weight-300:checked ~ .weight-options label[for="weight-300"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-300:checked ~ .weight-options label[for="weight-300"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-300:focus-visible ~ .weight-options label[for="weight-300"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-400:checked ~ .sample-shell textarea{font-weight:400}
+#weight-400:checked ~ .weight-options label[for="weight-400"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-400:checked ~ .weight-options label[for="weight-400"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-400:focus-visible ~ .weight-options label[for="weight-400"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-500:checked ~ .sample-shell textarea{font-weight:500}
+#weight-500:checked ~ .weight-options label[for="weight-500"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-500:checked ~ .weight-options label[for="weight-500"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-500:focus-visible ~ .weight-options label[for="weight-500"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-600:checked ~ .sample-shell textarea{font-weight:600}
+#weight-600:checked ~ .weight-options label[for="weight-600"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-600:checked ~ .weight-options label[for="weight-600"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-600:focus-visible ~ .weight-options label[for="weight-600"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-700:checked ~ .sample-shell textarea{font-weight:700}
+#weight-700:checked ~ .weight-options label[for="weight-700"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-700:checked ~ .weight-options label[for="weight-700"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-700:focus-visible ~ .weight-options label[for="weight-700"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-800:checked ~ .sample-shell textarea{font-weight:800}
+#weight-800:checked ~ .weight-options label[for="weight-800"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-800:checked ~ .weight-options label[for="weight-800"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-800:focus-visible ~ .weight-options label[for="weight-800"]{outline:3px solid var(--dark);outline-offset:4px}
+#weight-900:checked ~ .sample-shell textarea{font-weight:900}
+#weight-900:checked ~ .weight-options label[for="weight-900"]{background:var(--dark);color:var(--pink);border-color:var(--dark)}
+#weight-900:checked ~ .weight-options label[for="weight-900"]::after{content:"";position:absolute;right:16px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--pink)}
+#weight-900:focus-visible ~ .weight-options label[for="weight-900"]{outline:3px solid var(--dark);outline-offset:4px}

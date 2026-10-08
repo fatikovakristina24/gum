@@ -1,0 +1,203 @@
+/* Планшет: макет 768 px и промежуточные ширины */
+@media (max-width: 1100px) {
+  :root { --pad: 40px; }
+  h1 { font-size: clamp(42px, 6.51vw, 66px); }
+  h2 { font-size: 48px; }
+  .inner { padding-top: 28px; padding-bottom: 64px; }
+  .section-tag { margin-bottom: 19px; }
+  .section h2 { font-size: 48px; line-height: 1.2; margin-bottom: 48px; }
+  .desktop-only { display: none; }
+  .tablet-only { display: block; }
+  .hero .inner { min-height: 548px; padding-top: 56px; }
+  .hero-layout { grid-template-columns: minmax(0, 344fr) minmax(0, 320fr); grid-template-rows: 212px auto; gap: 68px 24px; }
+  .hero-intro { font-size: 20px; margin-top: 28px; }
+  .machine { margin-top: 0; }
+  .hero-pack { margin-top: 0; width: calc(100% - 16px); }
+  .hero-extra, .hero-turn { display: none; }
+  .about .inner { min-height: 924px; padding-bottom: 42px; }
+  .about .section-tag { margin-bottom: 19px; }
+  .about-layout { grid-template-columns: 1fr; gap: 48px; }
+  .about-copy { grid-area: auto; padding-top: 0; }
+  .about-copy h2 { font-weight: 500; margin-bottom: 36px; }
+  .about-copy > p { max-width: none; font-size: 18px; line-height: 1.2; }
+  .about-pack { grid-area: auto; width: 81.395%; justify-self: center; }
+  .license-badge { right: 40px; top: 64px; }
+  .stats { grid-column: auto; gap: 24px; }
+  .stat-card { min-height: 112px; padding: 20px; gap: 16px; }
+  .stat-sample { flex-basis: clamp(80px, 14.32vw, 110px); font-size: clamp(20px, 3.125vw, 24px); }
+  .stat-eight { font-size: 30px; }
+  .stat-card p { font-size: 18px; }
+  .stat-card small { font-size: 14px; }
+  .weights .inner { min-height: 670px; }
+  .weights-grid { column-gap: 20px; row-gap: 50px; }
+  .weight-card figcaption { display: grid; gap: 12px; margin-top: 30px; }
+  .weight-card figcaption span:first-child { font-size: 18px; }
+  .weight-card figcaption span:last-child { font-size: 14px; }
+  .alphabets .inner { min-height: 1100px; padding-bottom: 56px; }
+  .heading-bubble, .tray-art { display: none; }
+  .alphabet-grid { display: flex; flex-wrap: wrap; gap: 16px 21.333px; }
+  .letter-bubble { width: calc((100% - 128px) / 7); }
+  .letter-bubble:nth-last-child(5) { margin-left: calc((100% + 21.333px) / 7); }
+  .lowercase { margin-top: 36px; }
+  .lowercase .sample-label { font-size: 14px; margin-bottom: 24px; }
+  .cyrillic-sample { font-size: 32px; line-height: 1.2; }
+  .latin { margin-top: 44px; padding-top: 28px; }
+  .latin-grid { gap: 24px; }
+  .latin-grid .sample-label { font-size: 14px; margin-bottom: 20px; }
+  .latin-upper, .latin-lower { font-size: clamp(18px, 3.125vw, 24px); line-height: 1.2; }
+  .anatomy .inner { min-height: 754px; }
+  .anatomy-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .jar { width: 83.333%; }
+  .jar [data-layer="9:617"], .jar [data-layer="9:623"], .jar [data-layer="9:629"] { display: none; }
+  .anatomy-card figcaption { padding-top: 38px; }
+  .anatomy-card h3 { display: block; min-height: 48px; margin-bottom: 22px; }
+  .anatomy-card figcaption p { font-size: 16px; line-height: 1.2; }
+  .shelf { display: none; }
+  .symbols .inner { min-height: 980px; }
+  .symbols h2 { margin-bottom: 60px; }
+  .symbol-label { margin-top: 44px; margin-bottom: 28px; }
+  .symbols-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 33px 16px; }
+  .languages .inner { min-height: 580px; }
+  .languages h2 { font-size: 42px; margin-bottom: 64px; }
+  .language-grid { gap: 24px; }
+  .diacritics { margin-top: 54px; }
+  .diacritics .sample-label { font-size: 14px; }
+  .applications .inner { min-height: 768px; }
+  .application-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .poster { grid-row: 1 / 3; }
+  .application-packs { padding-top: 0; gap: 46px; }
+  .application-caption { grid-column: 2; align-self: start; max-width: 240px; line-height: 1.3; }
+  .tester .inner { min-height: 728px; padding-bottom: 40px; }
+  .tester h2 { margin-bottom: 48px; }
+  .sample-shell { min-height: 202px; background: var(--pink); border-radius: 24px; padding: 42px 24px 24px; }
+  .sample-wrapper, .sample-arrow { display: none; }
+  .sample-text { height: 92px; font-size: 48px; }
+  .sample-hint { margin-top: 26px; }
+  .choose-label { margin-top: 48px; margin-bottom: 26px; }
+  .weight-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .footer .inner { min-height: 594px; padding-bottom: 40px; }
+  .footer .section-tag { margin-bottom: 17px; }
+  .footer-top { width: 100%; grid-template-columns: minmax(0, 348fr) minmax(0, 320fr); gap: 20px; }
+  .footer-top h2 { font-size: min(40px, 12.25cqw); margin-top: 0; margin-bottom: 0; }
+  .footer-font-name { display: none; }
+  .footer-mark { margin-right: 0; }
+  .footer-credits { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 54px 24px; padding-top: 28px; margin-top: 68px; }
+  .credit-label { font-size: 14px; margin-bottom: 12px; }
+  .credit-name { font-size: 22px; }
+  .school-logo { grid-column: 1 / -1; width: 200px; }
+  .hero-pack [data-layer="9:253"] { font-size: 12px !important; }
+  .about-pack [data-layer="9:315"] { font-size: 16px !important; }
+  .language-pack [data-layer="9:689"], .language-pack [data-layer="9:694"],
+  .application-pack [data-layer="9:712"], .application-pack [data-layer="9:722"],
+  .poster [data-layer="9:700"] { font-size: 12px !important; }
+  .machine [data-layer="9:296"] { width: 40% !important; left: 59.375% !important; top: 78.3% !important; font-size: 12px !important; line-height: 1 !important; }
+}
+
+/* На узком планшете карточки сохраняют читаемые подписи. */
+@media (min-width: 601px) and (max-width: 700px) {
+  .stats { grid-template-columns: 1fr; gap: 16px; }
+  .stat-sample { flex-basis: 130px; font-size: 30px; }
+}
+
+/* Мобильный: макет 414 px */
+@media (max-width: 600px) {
+  :root { --pad: 24px; }
+  .inner { padding-top: 24px; padding-bottom: 40px; }
+  .section-tag { font-size: 12px; margin-bottom: 24px; }
+  .tablet-only, .desktop-tablet { display: none; }
+  .mobile-only { display: block; }
+  .section h2 { font-size: clamp(28px, 9.18vw, 38px); line-height: 1.2; margin-bottom: 44px; }
+  .hero .inner { min-height: 938px; padding-top: 40px; }
+  .hero-layout { display: flex; flex-direction: column; gap: 0; }
+  h1 { font-size: clamp(34px, 10.145vw, 42px); line-height: 1.2; }
+  .hero-intro { font-size: 18px; line-height: 1.2; margin-top: 16px; }
+  .machine { order: 2; width: 100%; margin-top: 12px; }
+  .hero-pack { order: 3; width: 100%; margin-top: 52px; }
+  .hero-copy { order: 1; }
+  .about .inner { min-height: 900px; padding-bottom: 20px; }
+  .about .section-tag { margin-bottom: 24px; }
+  .about-layout { gap: 62px; }
+  .about-copy h2 { margin-bottom: 22px; font-weight: 500; }
+  .about-copy > p { font-size: 18px; line-height: 1.2; }
+  .license-badge { width: 26.28%; max-width: 108.8px; right: 24px; top: 44px; }
+  .about-pack { width: 100%; }
+  .stats { grid-template-columns: 1fr; gap: 16px; margin-top: -16px; }
+  .stat-card { min-height: 100px; }
+  .stat-sample { flex-basis: 130px; font-size: 30px; }
+  .stat-card p { font-size: 18px; }
+  .weights .inner { min-height: 916px; }
+  .weights h2 { margin-bottom: 60px; }
+  .weights-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; row-gap: 30px; }
+  .weight-card figcaption { display: flex; gap: 10px; margin-top: 24px; }
+  .weight-card figcaption span:first-child { font-size: 16px; }
+  .weight-card figcaption span:last-child { font-size: 13px; }
+  .alphabets .inner { min-height: 1188px; padding-bottom: 56px; }
+  .alphabets h2 { margin-bottom: 44px; }
+  .alphabet-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+  .letter-bubble { width: 100%; }
+  .letter-bubble:nth-last-child(5) { margin-left: 0; }
+  .lowercase { margin-top: 48px; }
+  .lowercase .sample-label { margin-bottom: 22px; }
+  .cyrillic-sample { font-size: 24px; overflow-wrap: anywhere; }
+  .latin { margin-top: 32px; padding-top: 28px; }
+  .latin-grid { gap: 16px; }
+  .latin-upper, .latin-lower { font-size: 20px; overflow-wrap: anywhere; }
+  .latin-grid .sample-label { margin-bottom: 22px; }
+  .anatomy .inner { min-height: 1120px; }
+  .anatomy h2 { margin-bottom: 52px; }
+  .anatomy-grid { grid-template-columns: 1fr; gap: 35px; }
+  .anatomy-card { display: grid; grid-template-columns: minmax(0, 160fr) minmax(0, 180fr); gap: 26px; align-items: center; }
+  .jar { width: 100%; }
+  .anatomy-card figcaption { padding-top: 0; }
+  .anatomy-card h3 { font-size: 18px; min-height: 44px; margin-bottom: 18px; }
+  .anatomy-card figcaption p { font-size: 15px; line-height: 1.2; }
+  .symbols .inner { min-height: 830px; padding-bottom: 64px; }
+  .symbols h2 { margin-bottom: 46px; }
+  .symbol-label { margin-top: 28px; margin-bottom: 24px; }
+  .symbols-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px 14px; }
+  .languages .inner { min-height: 736px; }
+  .languages h2 { font-size: 28px; font-weight: 500; margin-bottom: 78px; }
+  .language-grid { grid-template-columns: 1fr; gap: 34px; }
+  .diacritics { margin-top: 42px; }
+  .diacritics > p:last-child { font-size: clamp(24px, 7.24vw, 30px); white-space: nowrap; }
+  .applications .inner { min-height: 1080px; }
+  .applications h2 { margin-bottom: 54px; }
+  .application-grid { display: flex; flex-direction: column; gap: 28px; }
+  .poster { width: 100%; }
+  .application-packs { width: 100%; gap: 28px; }
+  .application-caption { max-width: none; font-size: 12px; }
+  .tester .inner { min-height: 830px; padding-bottom: 42px; }
+  .tester h2 { margin-bottom: 48px; }
+  .sample-shell { padding: 32px 20px 24px; min-height: 172px; }
+  .sample-text { height: 82px; font-size: 31px; line-height: 1.2; }
+  .sample-hint { font-size: 12px; margin-top: 22px; }
+  .choose-label { margin-top: 40px; margin-bottom: 28px; }
+  .weight-options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; }
+  .weight-choice { min-height: 72px; }
+  .weight-choice > span:first-child { font-size: 20px; }
+  .footer .inner { min-height: 808px; padding-bottom: 40px; }
+  .footer .section-tag { margin-bottom: 26px; }
+  .footer-top { display: flex; flex-direction: column; gap: 54px; }
+  .footer-top h2 { font-size: clamp(28px, 9.18vw, 38px); margin-bottom: 0; }
+  .footer-mark { width: 100%; }
+  .footer-credits { grid-template-columns: 1fr; gap: 28px; padding-top: 28px; margin-top: 38px; }
+  .school-logo { width: 220px; margin-top: 12px; }
+  .about-pack [data-layer="9:315"] { font-size: 11px !important; }
+}
+
+/* Узкие телефоны */
+@media (max-width: 374px) {
+  :root { --pad: 20px; }
+  .stat-card { gap: 12px; padding: 16px; }
+  .stat-sample { flex-basis: 108px; font-size: 25px; }
+  .stat-card p { font-size: 16px; }
+  .stat-card small { font-size: 12px; }
+  .license-badge { right: 20px; }
+  .anatomy-card { gap: 18px; }
+  .anatomy-card h3 { font-size: 16px; }
+  .anatomy-card figcaption p { font-size: 13px; }
+  .weight-card figcaption { gap: 7px; }
+  .weight-card figcaption span:last-child { font-size: 12px; }
+  .latin-upper, .latin-lower { font-size: 17px; }
+  .sample-text { font-size: 27px; }
+}

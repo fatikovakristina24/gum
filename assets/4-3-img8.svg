@@ -1,0 +1,61 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="585" height="235" viewBox="0 0 585 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#208;&#158;&#208;&#177;&#209;&#138;&#209;&#145;&#208;&#188; / &#208;&#188;&#208;&#176;&#209;&#130;&#208;&#181;&#209;&#128;&#208;&#184;&#208;&#176;&#208;&#187;&#209;&#139; &#208;&#184; &#209;&#129;&#208;&#178;&#208;&#181;&#209;&#130;">
+<path id="Vector" opacity="0.16" d="M574 7H11C6.58172 7 3 10.5817 3 15V224C3 228.418 6.58172 232 11 232H574C578.418 232 582 228.418 582 224V15C582 10.5817 578.418 7 574 7Z" fill="#1B1034"/>
+<path id="Vector_2" d="M577 1H8C4.13401 1 1 4.13401 1 8V220C1 223.866 4.13401 227 8 227H577C580.866 227 584 223.866 584 220V8C584 4.13401 580.866 1 577 1Z" fill="url(#paint0_linear_0_9)" stroke-width="1.3" stroke="#583260"/>
+<path id="Vector_3" d="M27 2H7C4.23858 2 2 4.23858 2 7V221C2 223.761 4.23858 226 7 226H27C29.7614 226 32 223.761 32 221V7C32 4.23858 29.7614 2 27 2Z" fill="url(#paint1_linear_0_9)"/>
+<path id="Vector_4" d="M578 2H558C555.239 2 553 4.23858 553 7V221C553 223.761 555.239 226 558 226H578C580.761 226 583 223.761 583 221V7C583 4.23858 580.761 2 578 2Z" fill="url(#paint2_linear_0_9)"/>
+<g id="Vector_5">
+<path d="M6 9V217ZM579 9V217Z" fill="black"/>
+<path d="M6 9V217M579 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_6">
+<path d="M10 9V217ZM575 9V217Z" fill="black"/>
+<path d="M10 9V217M575 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_7">
+<path d="M14 9V217ZM571 9V217Z" fill="black"/>
+<path d="M14 9V217M571 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_8">
+<path d="M18 9V217ZM567 9V217Z" fill="black"/>
+<path d="M18 9V217M567 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_9">
+<path d="M22 9V217ZM563 9V217Z" fill="black"/>
+<path d="M22 9V217M563 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_10">
+<path d="M26 9V217ZM559 9V217Z" fill="black"/>
+<path d="M26 9V217M559 9V217" stroke-width="0.8" stroke="#74496F" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_11">
+<path d="M42 12H543Z" fill="black"/>
+<path d="M42 12H543" stroke-width="2" stroke="white" stroke-opacity="0.45"/>
+</g>
+<g id="Vector_12">
+<path d="M39 218H546Z" fill="black"/>
+<path d="M39 218H546" stroke-width="2" stroke="#74496F" stroke-opacity="0.25"/>
+</g>
+<path id="Vector_13" d="M30 20L65 36M555 210L527 196" stroke="white" stroke-opacity="0.4"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_9" x1="1" y1="1" x2="14.3917" y2="231.306" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBDDF3"/>
+<stop offset="0.14" stop-color="#EDA0D9"/>
+<stop offset="0.48" stop-color="#EDA0D9"/>
+<stop offset="0.76" stop-color="#B875AA"/>
+<stop offset="0.86" stop-color="#EDA0D9"/>
+<stop offset="1" stop-color="#FBDDF3"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_9" x1="2" y1="2" x2="32" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B875AA"/>
+<stop offset="0.5" stop-color="#F5C9E8"/>
+<stop offset="1" stop-color="#B875AA"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_9" x1="553" y1="2" x2="583" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B875AA"/>
+<stop offset="0.5" stop-color="#F5C9E8"/>
+<stop offset="1" stop-color="#B875AA"/>
+</linearGradient>
+</defs>
+</svg>

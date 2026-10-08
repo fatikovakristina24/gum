@@ -1,0 +1,29 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="200" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame" clip-path="url(#clip0_0_4)">
+<path id="Vector" d="M1440 0H0V200H1440V0Z" fill="#F0A1DB"/>
+<path id="Vector_2" d="M0 166C340 172 374 42 680 42C1060 42 1110 128 1440 110V200H0V166Z" fill="#F1EBF8"/>
+<path id="Vector_3" d="M-30 20L1040 81C1133.33 87 1283.33 115.333 1490 166L1473 215C1264.33 168.333 1119 143.333 1037 140L-30 78V20Z" fill="#F1EBF8" stroke-width="1.5" stroke="#1B1034"/>
+<path id="Vector_4" d="M0 59L1038 120C1132.67 125.333 1270 150 1450 194" stroke-width="2" stroke="#B9A0D5"/>
+<g id="Vector_5">
+<path d="M220 43V63ZM228 44V64ZM236 45V65ZM242 46V66ZM250 47V67ZM258 48V68Z" fill="black"/>
+<path d="M220 43V63M228 44V64M236 45V65M242 46V66M250 47V67M258 48V68" stroke-width="2" stroke="#1B1034"/>
+</g>
+<g id="Vector_6">
+<path d="M440 43V63ZM448 44V64ZM456 45V65ZM462 46V66ZM470 47V67ZM478 48V68Z" fill="black"/>
+<path d="M440 43V63M448 44V64M456 45V65M462 46V66M470 47V67M478 48V68" stroke-width="2" stroke="#1B1034"/>
+</g>
+<g id="Vector_7">
+<path d="M660 43V63ZM668 44V64ZM676 45V65ZM682 46V66ZM690 47V67ZM698 48V68Z" fill="black"/>
+<path d="M660 43V63M668 44V64M676 45V65M682 46V66M690 47V67M698 48V68" stroke-width="2" stroke="#1B1034"/>
+</g>
+<g id="Vector_8">
+<path d="M880 43V63ZM888 44V64ZM896 45V65ZM902 46V66ZM910 47V67ZM918 48V68Z" fill="black"/>
+<path d="M880 43V63M888 44V64M896 45V65M902 46V66M910 47V67M918 48V68" stroke-width="2" stroke="#1B1034"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_4">
+<rect width="1440" height="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

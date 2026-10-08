@@ -1,0 +1,183 @@
+@import url("tester-states.css");
+
+@font-face {
+  font-family: Unbounded;
+  src: url("fonts/Unbounded.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url("fonts/Inter.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --dark: #1b1034;
+  --pink: #f0a1db;
+  --pale: #f1ebf8;
+  --lilac: #b9a0d5;
+  --muted: #87759d;
+  --pad: 64px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--dark); color: var(--dark); font-family: Inter, Arial, sans-serif; }
+main, footer { width: min(100%, 1440px); margin-inline: auto; }
+h1, h2, h3, p, figure { margin: 0; }
+fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+img { display: block; max-width: 100%; }
+h1, h2 { font-family: Unbounded, sans-serif; font-weight: 900; line-height: 1.15; letter-spacing: 0; }
+h1 { font-size: clamp(66px, 6.04vw, 87px); }
+h2 { font-size: 75px; }
+.dark { background: var(--dark); color: var(--pale); }
+.pale { background: var(--pale); }
+.pink { background: var(--pink); }
+.section { position: relative; }
+.inner { position: relative; padding: 44px var(--pad) 64px; }
+.section-tag, .sample-label { font-size: 14px; line-height: 1.2; font-weight: 500; }
+.section-tag { margin-bottom: 58px; }
+.section h2 { margin-bottom: 68px; }
+.transition { width: 100%; line-height: 0; }
+.transition > img { width: 100%; height: auto; }
+.art { position: relative; container-type: inline-size; min-width: 0; color: var(--dark); }
+.art p { margin: 0; }
+.art img { max-width: none; }
+.art > img { width: 100%; height: auto; }
+.skip-link { position: fixed; left: 16px; top: 16px; z-index: 10; width: 1px; height: 1px; clip-path: inset(50%); overflow: hidden; background: var(--pale); color: var(--dark); }
+.skip-link:focus-visible { width: auto; height: auto; clip-path: none; padding: 14px; }
+.tablet-only, .mobile-only { display: none; }
+.visually-hidden, .weight-radio { position: absolute; width: 1px; height: 1px; padding: 0; border: 0; clip-path: inset(50%); overflow: hidden; white-space: nowrap; }
+
+/* Обложка */
+.hero .inner { min-height: 994px; padding-top: 96px; }
+.hero-layout { display: grid; grid-template-columns: minmax(0, 585fr) minmax(0, 630fr); grid-template-rows: 304px auto; column-gap: 93px; align-items: start; }
+.hero-copy { grid-area: 1 / 1; }
+.hero-intro { margin-top: 39px; color: var(--lilac); font-size: 27px; line-height: 1.15; }
+.machine { grid-area: 1 / 2 / 3 / 3; margin-top: -46px; }
+.hero-pack { grid-area: 2 / 1; margin-top: 82px; align-self: start; }
+.hero-extra { position: absolute; width: 125px; left: 460px; top: 749px; }
+.hero-turn { position: absolute; width: 112px; left: 672px; top: 740px; }
+
+/* О шрифте */
+.about .inner { min-height: 850px; padding-bottom: 54px; }
+.about .section-tag { margin-bottom: 82px; }
+.about-layout { display: grid; grid-template-columns: minmax(0, 620fr) minmax(0, 592fr); gap: 80px 101px; align-items: start; }
+.about-pack { grid-area: 1 / 1; }
+.about-copy { grid-area: 1 / 2; padding-top: 11px; }
+.about-copy h2 { font-size: 55px; font-weight: 500; margin-bottom: 43px; }
+.about-copy > p { max-width: 560px; font-size: 23px; line-height: 1.15; }
+.license-badge { position: absolute; width: 128px; right: 93px; top: 107px; }
+.stats { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+.stat-card { display: flex; align-items: center; gap: 28px; padding: 24px 32px; min-height: 132px; background: #e3d9ef; border-radius: 16px; }
+.stat-sample { flex: 0 0 clamp(130px, 14.03vw, 202px); font-family: Unbounded, sans-serif; font-size: 42px; text-align: center; white-space: nowrap; }
+.stat-eight { font-size: 56px; font-weight: 900; }
+.stat-card p { font-size: 24px; line-height: 1.2; margin-bottom: 8px; }
+.stat-card small { font-size: 16px; line-height: 1.25; }
+
+/* Начертания */
+.weights .inner { min-height: 950px; }
+.weights h2 { font-size: 71px; margin-bottom: 78px; }
+.weights-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 44px; row-gap: 56px; }
+.weight-card { min-width: 0; display: grid; grid-template-rows: 1fr auto; }
+.weight-card .art { align-self: start; }
+.weight-card figcaption { display: flex; align-items: baseline; gap: 44px; margin-top: 34px; line-height: 1.2; }
+.weight-card figcaption span:first-child { font-size: 20px; font-weight: 500; }
+.weight-card figcaption span:last-child { font-size: 18px; }
+
+/* Алфавиты */
+.alphabets .inner { min-height: 1240px; padding-bottom: 68px; }
+.alphabets h2 { font-size: 70.5px; margin-bottom: 89px; }
+.alphabet-title { position: relative; }
+.heading-bubble { position: absolute; width: 175px; right: 30px; top: -8px; }
+.alphabet-tray { position: relative; }
+.tray-art { position: absolute; width: calc(100% + 36px); max-width: none; left: -18px; top: -23px; pointer-events: none; }
+.alphabet-grid { position: relative; display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 18px 14px; }
+.letter-bubble { position: relative; display: grid; place-items: center; aspect-ratio: 1; container-type: inline-size; }
+.letter-bubble > img { position: absolute; }
+.bubble-base, .bubble-shine { left: 0; top: 0; width: 100%; height: auto; }
+.bubble-inner { width: 86.916%; left: 6.542%; top: 6.542%; height: auto; }
+.letter-bubble > span { position: relative; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 41.1215cqw; line-height: 1.15; color: var(--dark); }
+.lowercase { margin-top: 72px; }
+.lowercase .sample-label { font-size: 18px; margin-bottom: 20px; }
+.cyrillic-sample { font-family: Unbounded, sans-serif; font-size: 40px; line-height: 1.3; color: var(--pink); }
+.latin { margin-top: 20px; padding-top: 33px; border-top: 1px solid var(--lilac); }
+.latin-heading { color: var(--lilac); margin-bottom: 26px; }
+.latin-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 55px; }
+.latin-grid .sample-label { font-size: 18px; margin-bottom: 24px; }
+.latin-upper, .latin-lower { font-family: Unbounded, sans-serif; font-size: clamp(28px, 2.78vw, 40px); line-height: 1.3; overflow-wrap: anywhere; }
+.latin-upper { color: var(--pink); font-weight: 700; }
+
+/* Анатомия */
+.anatomy .inner { min-height: 1090px; }
+.anatomy h2 { margin-bottom: 78px; }
+.anatomy-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 320px)); justify-content: space-between; gap: 40px; position: relative; }
+.anatomy-card { min-width: 0; }
+.jar { width: min(100%, 320px); margin-inline: auto; }
+.anatomy-card figcaption { padding-top: 50px; }
+.anatomy-card h3 { display: none; font-size: 20px; font-weight: 500; line-height: 1.2; margin-bottom: 20px; }
+.anatomy-card figcaption p { font-size: 20px; line-height: 1.15; }
+.shelf { position: absolute; height: 10px; background: var(--dark); left: 38px; right: 38px; top: 883px; }
+.shelf::before, .shelf::after { content: ""; width: 3px; height: 24px; position: absolute; top: 10px; background: var(--dark); }
+.shelf::before { left: 36px; }.shelf::after { right: 62px; }
+
+/* Цифры и символы */
+.symbols .inner { min-height: 1172px; }
+.symbols h2 { font-size: 78px; margin-bottom: 62px; }
+.symbol-label { margin-top: 30px; margin-bottom: 42px; }
+.symbols-grid { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 48px 13px; }
+.symbol-pack { position: relative; aspect-ratio: 118 / 164; container-type: inline-size; }
+.symbol-pack img { width: 100%; height: auto; }
+.symbol-pack span { position: absolute; inset: 0; display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 50.847cqw; line-height: 1.15; }
+.symbol-pack:last-child span { font-size: 37.288cqw; }
+
+/* Языки */
+.languages .inner { min-height: 780px; }
+.languages h2 { font-size: 63px; font-weight: 500; margin-bottom: 87px; }
+.language-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+.diacritics { margin-top: 42px; }
+.diacritics .sample-label { font-size: 18px; margin-bottom: 14px; }
+.diacritics > p:last-child { font-family: Unbounded, sans-serif; font-size: 40px; line-height: 1.15; }
+
+/* Применение */
+.applications .inner { min-height: 1140px; }
+.applications h2 { font-size: 73px; margin-bottom: 78px; }
+.application-grid { display: grid; grid-template-columns: minmax(0, 465fr) minmax(0, 750fr); gap: 52px 96px; align-items: start; }
+.application-packs { display: grid; gap: 59px; padding-top: 8px; }
+.application-caption { color: var(--lilac); grid-column: 1 / -1; }
+
+/* Проба шрифта: редактирование и переключение веса только HTML/CSS */
+.tester .inner { min-height: 820px; padding-bottom: 44px; }
+.tester h2 { margin-bottom: 36px; }
+.font-tester { position: relative; }
+.sample-shell { position: relative; min-height: 260px; padding: 60px 164px 44px; }
+.sample-wrapper { position: absolute; left: 0; top: 0; width: 100%; height: auto; z-index: 0; pointer-events: none; }
+.sample-text { position: relative; display: block; background: transparent; color: var(--dark); font-family: Unbounded, sans-serif; font-size: 76px; line-height: 1.15; padding: 0; margin: 0; border: 0; outline: none; resize: none; width: 100%; height: 104px; font-weight: 700; }
+.sample-text:focus-visible { outline: 2px dashed var(--dark); outline-offset: 8px; border-radius: 2px; }
+.sample-hint { position: relative; display: inline-block; margin-top: 26px; font-size: 14px; line-height: 1.2; font-weight: 500; cursor: text; }
+.sample-arrow { position: absolute; top: 85px; font: 49px/1.15 Unbounded, sans-serif; }
+.sample-arrow-left { left: 25px; }.sample-arrow-right { right: 63px; }
+.choose-label { margin-top: 62px; margin-bottom: 36px; }
+.weight-options { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 16px; }
+.weight-choice { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 76px; padding: 10px 15px 11px; border: 1px solid var(--lilac); border-radius: 12px; cursor: pointer; background: var(--pale); color: var(--dark); transition: background-color .15s, border-color .15s; }
+.weight-choice > span:first-child { font-family: Unbounded, sans-serif; font-size: 22px; line-height: 1.2; font-weight: var(--weight); }
+.weight-choice > span:last-child { font-size: 14px; line-height: 1.2; font-weight: 500; }
+.weight-choice:hover { border-color: var(--dark); background: #e3d9ef; }
+
+/* Подвал */
+.footer .inner { min-height: 708px; padding-bottom: 44px; }
+.footer .section-tag { margin-bottom: 26px; }
+.footer-top { display: grid; width: calc(100% + 45px); grid-template-columns: minmax(0, 612fr) minmax(0, 707fr); gap: 38px; align-items: start; }
+.footer-top > div:first-child { container-type: inline-size; }
+.footer-top h2 { font-size: min(75px, 12.25cqw); margin-top: 40px; margin-bottom: 92px; }
+.footer-font-name { font-family: Unbounded, sans-serif; font-size: 38px; font-weight: 500; line-height: 1.15; }
+.footer-mark { margin-right: 0; }
+.footer-credits { display: grid; grid-template-columns: minmax(0, 1.64646fr) minmax(0, 1fr) 200px; gap: 32px; align-items: center; padding-top: 23px; margin-top: 17px; border-top: 1px solid var(--dark); }
+.credit-label { font-size: 16px; margin-bottom: 9px; line-height: 1.2; }
+.credit-name { font-size: 24px; font-weight: 500; line-height: 1.2; }
+.school-logo { width: 200px; height: auto; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; }.weight-choice { transition: none; } }
